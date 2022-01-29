@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+
+.base_container {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin: 38px 171px;
+    grid-gap: 55px;
+}
+
+.content_Container {
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.title {
+    text-align: left;
+    font-size: 35px;
+    color: #f64c08;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.aboutContainer_image{
+    padding-top: 26px;
+}
+
+.aboutContainer_image>img{
+    width: 300px;
+    border-radius: 3px;
+    object-fit: contain;
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+ 

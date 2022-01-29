@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+.projectContainer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    padding-top: 96px;
+    align-items: center;
+}
+.projectContainer>h1{
+    padding-bottom: 10px;
+}
+.projectContainer>p{
+    font-size: 20px;
+}
+.projectContainer_projects{
+    display: flex;
+    width: 81vw;
+    margin-top: -12px;
+    flex-wrap: wrap;
+}
+
+.title_project {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #f64c08;
+}

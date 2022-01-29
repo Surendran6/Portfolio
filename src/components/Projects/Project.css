@@ -1,0 +1,73 @@
+.project{
+    width: 500px;
+    height: 400px;
+}
+
+.project{
+    margin: 15px 75px;
+    width: 400px;
+    height: 455px;
+    border: 1px solid #b44619;
+    transition: transform 100ms ease-in;
+}
+
+/* .project:hover{
+    color: white;
+    background-color: #f64c08;
+    
+    transform: scale(1.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid #fff;
+} */
+.project_content{
+    padding:10px;
+}
+.project_content>h4{
+    padding-bottom: 5px;
+}
+.project_content>p{
+    font-size: 15px;
+}
+
+.project_image {
+    margin: 20px 76px;
+}
+
+.project_image>img{
+    width: 250px;
+    height: 138px;
+}
+
+.project_header {
+    font-size: 20px;
+    text-align: center;
+}
+
+.project_desc {
+    font-size: 16px;
+    text-align: center;
+}
+
+.tech_used {
+    font-size: 12px;
+    text-align: center;
+}
+
+.codeLinks{
+    display: flex;
+    justify-content: space-around;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white !important;
+}
+
+.tech-icons {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
