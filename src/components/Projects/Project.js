@@ -5,21 +5,6 @@ const Project = ({img,title,desc,backend, frontend, website}) => {
     const [show,setshow] = useState(false);
     return (
         <div className="project_section">
-            {/* <div className="project" onMouseEnter={()=>setshow(true)} onMouseLeave={()=>setshow(false)}>
-                {
-                    show?(
-                        <div className="project_content">
-                           <h4>{title}</h4>
-                           <p>{desc}</p>
-                           <p>{notes}</p>
-                        </div>
-                    ):(<>
-                    <img src={img} alt=""/>
-                    <h4>{title}</h4>
-                    </>)
-                }
-                
-            </div> */}
             <div className="project">
                 <div className='project_image'>
                    <img src={img} alt=""/>

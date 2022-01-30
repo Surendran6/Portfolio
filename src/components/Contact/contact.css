@@ -31,3 +31,12 @@
     font-size: 30px;
 }
 
+.email {
+    margin-top: 5px;
+    padding-bottom: 15px !important;
+}
+
+.phone {
+    margin-top: -10px;
+}
+

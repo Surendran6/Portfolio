@@ -6,7 +6,7 @@ import { Zoom } from "react-awesome-reveal";
 import forgotPassword from '../../assests/forgotPassword.png';
 import shortlyScreen from '../../assests/shortlyScreen.png';
 import invoice from '../../assests/Invoice.png';
-
+import mentoPortal from '../../assests/mentoPortal.png';
 
 const ProjectContainer = () => {
     const projects=[
@@ -28,8 +28,8 @@ const ProjectContainer = () => {
             website: "https://url-shortener-frontend1.herokuapp.com/Shortly/homepage",
         },
         {
-            img:"https://images.pexels.com/photos/35550/ipad-tablet-technology-touch.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-            title:"Student Portal",
+            img: mentoPortal,
+            title:"Zen Portal",
             desc:"A simple software training center website where we can add the students, assign Mentors to students, and change mentor to students.",
             backend:"https://github.com/Surendran6/Zenclass-backend",
             frontend: "https://github.com/Surendran6/password-reset-frontend1",

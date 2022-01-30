@@ -1,6 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
-import vijay from "../../assests/vijay.jpg";
+import suren from "../../assests/surendran.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 import LinearProgress from "@material-ui/core/LinearProgress";
@@ -27,7 +27,7 @@ const AboutContainer = () => {
           <div className="button_container">
             <a
               href={
-                "https://drive.google.com/file/d/1wpaKKMAiFTK_kIHqy8qSE3oQMHOZF0zA/view?usp=sharing"
+                "https://drive.google.com/file/d/1WBoiPLv8d5rQu_EffxgjQjOqrHG1MA6A/view"
               }
               target="_blank"
               rel="noreferrer noopener"
@@ -45,7 +45,7 @@ const AboutContainer = () => {
       </Slide>
       <Slide right >
       <div className="aboutContainer_image">
-          <img src={vijay} alt="" />
+          <img src={suren} alt="" />
         </div>
       </Slide >
     </Element>

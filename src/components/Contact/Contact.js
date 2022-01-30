@@ -1,7 +1,6 @@
 import React from 'react'
 import { Element } from 'react-scroll'
 import {IconButton} from '@material-ui/core'
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import './contact.css'
 const Contact = () => {
@@ -9,19 +8,14 @@ const Contact = () => {
      <Element className="contact" name="contact">
          <h1>Contact</h1>
          <div className="contact_container">
-             <p>
-                 Email:<span>surendran@gmail.com</span>
+             <p className='email'>
+                 Email: <span>surendran@gmail.com</span>
              </p>
-             <p>
-                 Github username:<span>surendrangit</span>
+             <p className='phone'>
+                 Phone number: <span>9688705869</span>
              </p>
              <div className="contact_icons">
-                 <a href="www.google.com" alt="g">
-                     <IconButton>
-                        <LinkedInIcon/>
-                     </IconButton>
-                 </a>
-                 <a href="www.google.com" alt="g">
+                 <a href="https://github.com/Surendran6"  target='_blank' alt="Surendran">
                      <IconButton>
                         <GitHubIcon/>
                      </IconButton>
