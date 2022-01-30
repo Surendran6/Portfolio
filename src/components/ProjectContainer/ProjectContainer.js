@@ -17,7 +17,7 @@ const ProjectContainer = () => {
             desc:"An invoice, bill or tab is a commercial document issued by seller to a buyer.Implemented this application with complete authentication system along with varoius roles(Admin, Manager, Employee, Client)",
             backend:"https://github.com/Surendran6/Invoice_backend",
             frontend: "https://github.com/Surendran6/Invoice_frontend",
-            website: "https://password-reset-frontend.herokuapp.com/MERN-LoginSystem/login",
+            website: "https://invoicerocket-frontend.herokuapp.com/InvoiceRocket/main",
         },
         {
             img: shortlyScreen,
@@ -32,8 +32,8 @@ const ProjectContainer = () => {
             title:"Zen Portal",
             desc:"A simple software training center website where we can add the students, assign Mentors to students, and change mentor to students.",
             backend:"https://github.com/Surendran6/Zenclass-backend",
-            frontend: "https://github.com/Surendran6/password-reset-frontend1",
-            website: "https://password-reset-frontend.herokuapp.com/MERN-LoginSystem/login",
+            frontend: "https://github.com/Surendran6/Zen_Portal_Frontend",
+            website: "https://musing-turing-c0d1b0.netlify.app/",
         },
         {
             img: forgotPassword,

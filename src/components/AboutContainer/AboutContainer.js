@@ -20,7 +20,7 @@ const AboutContainer = () => {
           I'm a passionate Full stack developer with the goal of working on a
           project that solves problems with thoughtful UI design, creating
           intuitive, dynamic user experiences powered by strong backend. My core
-          competency lies in developing applications from its inception I
+          competency lies in developing applications from its inception. I
           primarily work with MERN stack among the full stack technologies. The
           satisfaction that I get while working and completing every project
           made me do more and more.

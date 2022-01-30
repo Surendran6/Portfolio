@@ -9,7 +9,7 @@ const Contact = () => {
          <h1>Contact</h1>
          <div className="contact_container">
              <p className='email'>
-                 Email: <span>surendran@gmail.com</span>
+                 Email: <span>surendransakthi96@gmail.com</span>
              </p>
              <p className='phone'>
                  Phone number: <span>9688705869</span>
